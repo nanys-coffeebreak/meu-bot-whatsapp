@@ -7,7 +7,7 @@ const GEMINI_KEY = process.env.GEMINI_API_KEY;
 const ID_PLANILHA = "1Dlw54YOcYDhd_32qyVdjCWFvHRrnCbTTyK5e9Re9SVs"; 
 const ID_DOCS = "1O-669rGMid1xbe7wTpxZkQBgrMs2TRzjGbJUJNJA6Fc";
 
-const ai = new GoogleGenAI({ apiKey: GEMINI_KEY });
+const ai = new GoogleGenAI({ apiKey: AQ.Ab8RN6Klcy7SMOFWpz8nS9tz8sKjrIPhEuSrFbAZFh7QUx6lew });
 
 async function conectarWhatsapp() {
     // Render guarda as credenciais na pasta /data para não deslogar
