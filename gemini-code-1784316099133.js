@@ -3,9 +3,9 @@ const { GoogleGenAI } = require('@google/genai');
 const qrcode = require('qrcode-terminal');
 
 // CONFIGURAÇÕES - Cole aqui os seus IDs do Google
-const GEMINI_KEY = process.env.GEMINI_API_KEY; 
-const ID_PLANILHA = "COLE_AQUI_O_ID_DA_SUA_PLANILHA"; 
-const ID_DOCS = "COLE_AQUI_O_ID_DO_SEU_DOCS";
+const GEMINI_KEY = process.env.AQ.Ab8RN6Klcy7SMOFWpz8nS9tz8sKjrIPhEuSrFbAZFh7QUx6lew; 
+const ID_PLANILHA = "1Dlw54YOcYDhd_32qyVdjCWFvHRrnCbTTyK5e9Re9SVs"; 
+const ID_DOCS = "1O-669rGMid1xbe7wTpxZkQBgrMs2TRzjGbJUJNJA6Fc";
 
 // Inicializa o cliente oficial atualizado da Google AI
 const ai = new GoogleGenAI({ apiKey: GEMINI_KEY });
