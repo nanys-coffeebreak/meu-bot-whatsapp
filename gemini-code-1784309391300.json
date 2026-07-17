@@ -1,0 +1,14 @@
+{
+  "name": "meu-bot-whatsapp",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp Gratuito para Delivery",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "@google/generative-ai": "^0.1.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
