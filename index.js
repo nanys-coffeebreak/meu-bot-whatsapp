@@ -8,7 +8,7 @@ const ID_PLANILHA = "1Dlw54YOcYDhd_32qyVdjCWFvHRrnCbTTyK5e9Re9SVs";
 const ID_DOCS = "1O-669rGMid1xbe7wTpxZkQBgrMs2TRzjGbJUJNJA6Fc";
 
 // Inicializa o cliente oficial atualizado da Google AI
-const ai = new GoogleGenAI({ apiKey: AQ.Ab8RN6LK26OS7cbquIV7T4SAlgYpROzAGXrwqSRUzr2oi1GcgQ });
+const ai = new GoogleGenAI({ apiKey: GEMINI_KEY });
 
 async function conectarWhatsapp() {
     // Como estamos sem volume no plano free, salvamos na pasta local temporária
